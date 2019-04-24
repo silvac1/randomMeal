@@ -57,7 +57,7 @@ menu = {
     const dessert = this.getRandomDishFromCourse('desserts');
     const totalPrice = appetizer.price + main.price + dessert.price;
 
-    return `Your meals consist of 1 order of ${appetizer.name}, 1 order of ${main.name} and 1 order of ${dessert.name}, A total of: $${totalPrice} dolalrs`
+    return `Your meals is ${appetizer.name}, ${main.name}, ${dessert.name} and the total charge is: $${totalPrice} dolalrs.`
   }
 
 };
